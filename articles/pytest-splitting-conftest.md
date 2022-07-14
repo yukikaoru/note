@@ -1,3 +1,11 @@
+---
+title: "conftest.pyを小分けにする"
+emoji: ""
+type: "tech" # tech: 技術記事 / idea: アイデア記事
+topics: ["pytest"]
+published: true
+---
+
 # conftest.pyを小分けにする
 
 `conftest.py`に定義するフィクスチャも増えてくると次のようにファイルを分割したくなる。\
