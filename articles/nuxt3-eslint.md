@@ -10,6 +10,12 @@ published: true
 
 ## 依存パッケージのインストール
 
+これらのパッケージを利用します。
+- @nuxtjs/eslint-config-typescript
+- @typescript-eslint/eslint-plugin 
+- @typescript-eslint/parser 
+- eslint-plugin-vue
+
 ```bash
 npm install -D @nuxtjs/eslint-config-typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-vue
 ```
