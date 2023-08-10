@@ -19,9 +19,7 @@ AWS Lambdaではコンテナによるデプロイのために[Dockerコンテナ
 ## コンテナイメージを作成する
 
 `代替ベースイメージからのイメージの作成` にあるDockerfileを参考に進めます。
-これに次の追加の変更を行います。
-1. ローカルでのテストを実現するために `Runtime Interface Emulator` を追加する
-2. Dev Containerで利用しやすいように `mcr.microsoft.com/devcontainers/` にあるイメージをベースにする
+これにローカルでのテストを実現するために `Runtime Interface Emulator` を追加します。
 
 
 ### Dockerfileの作成
