@@ -81,7 +81,7 @@ sudo VMEXEC_PATH=/opt/wsl-vpnkit/wsl-vm GVPROXY_PATH=/opt/wsl-vpnkit/wsl-gvproxy
 systemd=true
 ```
 
-serviceファイル書き換えて設置します。
+serviceファイルを書き換えて設置します。
 元になるファイルは先程インストールした中にある`wsl-vpnkit.service`となります。
 
 書き換える箇所は`[Service]`の部分の`setup as a distro`のブロックをコマントアウトし、`setup as a standalone script`のブロックをコメントインします。
